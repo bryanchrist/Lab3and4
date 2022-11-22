@@ -9,7 +9,6 @@ Project cardib_database {
 Table timeseries as T {
   country_code varchar [pk]
   year int [pk]
-  country_name_wb varchar
   access_to_clean_fuels_and_technologies_for_cooking float
   access_to_electricity float
   agricultural_land float
